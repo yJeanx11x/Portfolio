@@ -1,0 +1,15 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+body{
+        background-color: #ffff
+}
+/* fontes */
+@font-face {
+        font-family:'Atteron';
+        src: url('/src/font/Atteron.ttf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+      }
