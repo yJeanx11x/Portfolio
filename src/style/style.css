@@ -11,13 +11,16 @@
 }
 .texto-P {
   font-size: 35pt;
-
-  font-family: "Atteron", serif;
+  font-weight: 300;
   width: 750px;
   text-align: center;
   margin: auto;
-  letter-spacing: 10px;
   margin-top: -100px;
+}
+.texto-P h1 {
+  font-family: "Atteron", serif;
+  font-weight: 100;
+  letter-spacing: 5px;
 }
 .foto-P {
   text-align: center;
@@ -37,28 +40,51 @@
   letter-spacing: 10px;
   margin-left: 80px;
 }
-.academia{
+.forma {
+  font-family: "Atteron", serif;
+  font-weight: 100;
+}
+.academia {
   margin-top: 250px;
   font-family: "Cardo", serif;
   letter-spacing: 3px;
-
 }
-.academia h1{
+.academia h1 {
   font-size: 18pt;
 }
-.academia p{
+.academia p {
   margin-top: 15px;
   font-size: 12pt;
+  font-weight: 100;
   font-family: "Cardo", serif;
   letter-spacing: 3px;
 }
-.academia2{
-  margin-top: 50px;
-  font-family: "Cardo", serif;
-  letter-spacing: 3px;
-  font-family: "Cardo", serif;
+.faculdade {
+  margin-top: 40px;
+}
+.fotos-Form {
+  display: flex;
+  justify-content: flex-end;
+}
+.fotos-Form img {
+  width: 500px;
+  height: 500px;
+  margin-top: -580px;
+  margin-right: 100px;
+  display: grid;
+}
+aside{
+margin-top: 300px;
+}
+
+.titulo-Pr{
+  margin: 100px;
 
 }
-.academia2{
-  font-size: 18pt;
+.titulo-Pr h1{
+  font-size: 40pt;
+  font-family: "Atteron", serif;
+  font-weight: 100;
+  letter-spacing: 10px;
+
 }
