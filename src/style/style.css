@@ -77,7 +77,7 @@
   margin-right: 100px;
   display: grid;
 }
-.bx{
+.bx {
   font-size: 50px;
 }
 
@@ -103,24 +103,70 @@ aside {
 }
 .box {
   width: 350px;
-  height: 450px;
-  background-color: black;
+  height: 550px;
+  background-color: rgba(0, 0, 0, 0.418);
   display: flex;
-  display: grid;
   margin: auto;
   color: aliceblue;
   margin-bottom: 80px;
   margin-top: 200px;
   border-radius: 5px;
+flex-wrap:wrap;
+
 }
 /* contato */
 
-.programacao {
-  
-  margin-top: 300px;
+.contatos {
   font-size: 10pt;
   font-family: "Atteron", serif;
   font-weight: 100;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   margin-left: 80px;
+  background-color: rgba(48, 47, 47, 0.534);
+  color: #ffff;
+  width: 250px;
+  height: 50px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 80px;
+}
+.contatos:hover {
+  background-color: rgba(48, 47, 47, 0.932);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.contatos h1 {
+  margin: auto;
+  text-align: center;
+}
+.box-contato {
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  margin-top: -60px;
+  margin-bottom: 80px;
+  display: flex;
+opacity: 0;
+}
+.box-contato .bx {
+  margin-top: 8px;
+  font-size: 40px;
+  margin: 10px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 50%
+
+}
+.box-contato .bx:hover{
+  font-size: 43px;
+  background-color: black;
+  transition: 0.5s;
+  border: 1px solid hsl(0, 14%, 85%);
+  color: #ffff;
+  border-radius: 50%;
+  padding: 5px;
+}
+.cursos{
+  cursor:none;
 }
