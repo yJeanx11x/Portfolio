@@ -99,20 +99,27 @@ aside {
 .projetos {
   display: flex;
   margin: auto;
-  flex-grow: wrap;
+  flex-wrap: wrap;
+  margin-top: 200px;
 }
 .box {
   width: 350px;
-  height: 550px;
-  background-color: rgba(0, 0, 0, 0.418);
-  display: flex;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.082);
   margin: auto;
   color: aliceblue;
   margin-bottom: 80px;
-  margin-top: 200px;
   border-radius: 5px;
-flex-wrap:wrap;
-
+  flex-wrap: wrap;
+  transition: 0.5s;
+  background-image: url(../imgs/pensador4.jpg);
+  background-repeat: no-repeat no-repeat;
+  background-image: center 450px;
+  opacity: 40%;
+}
+.box:hover{
+color: #000;
+  opacity: 70%;
 }
 /* contato */
 
@@ -122,7 +129,7 @@ flex-wrap:wrap;
   font-weight: 100;
   letter-spacing: 5px;
   margin-left: 80px;
-  background-color: rgba(48, 47, 47, 0.534);
+  background-color: rgba(48, 47, 47, 0.815);
   color: #ffff;
   width: 250px;
   height: 50px;
@@ -132,9 +139,11 @@ flex-wrap:wrap;
   margin-bottom: 80px;
 }
 .contatos:hover {
-  background-color: rgba(48, 47, 47, 0.932);
+  width: 253px;
+  background-color: rgb(10, 10, 10);
   transition: 0.5s;
-  cursor: pointer;
+  cursor: pointer;    
+  transition-delay: 0.5s;
 }
 .contatos h1 {
   margin: auto;
@@ -147,7 +156,7 @@ flex-wrap:wrap;
   margin-top: -60px;
   margin-bottom: 80px;
   display: flex;
-opacity: 0;
+  opacity: 0;
 }
 .box-contato .bx {
   margin-top: 8px;
@@ -155,10 +164,9 @@ opacity: 0;
   margin: 10px;
   margin: auto;
   cursor: pointer;
-  border-radius: 50%
-
+  border-radius: 50%;
 }
-.box-contato .bx:hover{
+.box-contato .bx:hover {
   font-size: 43px;
   background-color: black;
   transition: 0.5s;
@@ -167,6 +175,6 @@ opacity: 0;
   border-radius: 50%;
   padding: 5px;
 }
-.cursos{
-  cursor:none;
+.cursos {
+  cursor: none;
 }
