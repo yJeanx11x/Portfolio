@@ -158,7 +158,7 @@ color: #000;
   display: flex;
   opacity: 0;
 }
-.box-contato .bx {
+.box-contato a {
   margin-top: 8px;
   font-size: 40px;
   margin: 10px;
@@ -166,7 +166,7 @@ color: #000;
   cursor: pointer;
   border-radius: 50%;
 }
-.box-contato .bx:hover {
+.box-contato a:hover {
   font-size: 43px;
   background-color: black;
   transition: 0.5s;
