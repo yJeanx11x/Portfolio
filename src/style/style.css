@@ -33,11 +33,13 @@
   margin-top: -30px;
   border-radius: 3px;
 }
-
+section{
+  margin-top: 280px;
+}
 /* FORMAÇÃO */
 
 .formacao {
-  margin-top: 300px;
+  margin-top: 550px;
   font-size: 40pt;
   font-family: "Atteron", serif;
   font-weight: 700;
@@ -49,7 +51,7 @@
   font-weight: 100;
 }
 .academia {
-  margin-top: 250px;
+  margin-top: 150px;
   font-family: "Cardo", serif;
   letter-spacing: 3px;
 }
@@ -78,7 +80,7 @@
   display: grid;
 }
 .bx {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 /* Projetos */
@@ -137,6 +139,8 @@ color: #000;
   margin: auto;
   border-radius: 5px;
   margin-bottom: 80px;
+  transition: 0.5s;
+
 }
 .contatos:hover {
   width: 253px;
@@ -148,6 +152,8 @@ color: #000;
 .contatos h1 {
   margin: auto;
   text-align: center;
+  transition: 0.5s;
+
 }
 .box-contato {
   width: 250px;
@@ -156,6 +162,8 @@ color: #000;
   margin-top: -60px;
   margin-bottom: 80px;
   display: flex;
+  transition: 0.5s;
+
   opacity: 0;
 }
 .box-contato a {
@@ -165,16 +173,22 @@ color: #000;
   margin: auto;
   cursor: pointer;
   border-radius: 50%;
+  transition: 0.5s;
+
 }
 .box-contato a:hover {
-  font-size: 43px;
+  font-size: 10px;
   background-color: black;
-  transition: 0.5s;
-  border: 1px solid hsl(0, 14%, 85%);
+  transition: 0.3s;
+  border: 1px solid hsla(125, 99%, 47%, 0.705);
   color: #ffff;
-  border-radius: 50%;
-  padding: 5px;
+  border-radius: 50% ;
+  padding: 8px;
 }
 .cursos {
   cursor: none;
+}
+.preto{
+  color: #fff;
+  background-color: #000;
 }
