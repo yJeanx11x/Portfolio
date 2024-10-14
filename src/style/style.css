@@ -36,6 +36,28 @@
 section{
   margin-top: 280px;
 }
+/* OBJETIVO */
+.obj {
+  margin-top: 550px;
+  font-family: "Atteron", serif;
+  letter-spacing: 10px;
+  margin-left: 80px;
+}
+.titulo-obj{
+  font-family: "Atteron", serif;
+font-size: 60pt;
+font-weight: 100;
+}
+.obj p{
+  width: 650px;
+  height: 255px;
+  margin-top: 150px;
+  font-family: "Cardo", serif;
+letter-spacing: 1px;
+text-align: center;
+font-size: 18pt;
+}
+
 /* FORMAÇÃO */
 
 .formacao {
